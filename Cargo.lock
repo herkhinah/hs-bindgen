@@ -25,7 +25,7 @@ dependencies = [
 
 [[package]]
 name = "hs-bindgen"
-version = "0.7.1"
+version = "0.8.0"
 dependencies = [
  "hs-bindgen-attribute",
  "hs-bindgen-traits",
@@ -33,9 +33,8 @@ dependencies = [
 
 [[package]]
 name = "hs-bindgen-attribute"
-version = "0.7.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0312120db6e0d20ae97503a94b96f5517696615ab47e373476198b2f44311fb6"
+version = "0.8.0"
+source = "git+https://github.com/herkhinah/hs-bindgen-attribute.git?branch=shekhinah/FunPtr#ff50b5a224c9ae19aecd3dcd240edd51381ed41f"
 dependencies = [
  "antlion",
  "displaydoc",
@@ -52,15 +51,13 @@ dependencies = [
 
 [[package]]
 name = "hs-bindgen-traits"
-version = "0.7.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8cf90dfae9a543103bd0ee30bc93854fa44efb49b18a5c3a56e1a48b79612282"
+version = "0.8.0"
+source = "git+https://github.com/herkhinah/hs-bindgen-traits.git?branch=shekhinah/FunPtr#86f704698fbcfa4c9a5df06208d6e8782cf815f8"
 
 [[package]]
 name = "hs-bindgen-types"
-version = "0.7.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7c28562d29f40d530365122751e2f2401c4b2d9f0613ccf30ff6bf23bcae3d43"
+version = "0.8.0"
+source = "git+https://github.com/herkhinah/hs-bindgen-types?branch=shekhinah/FunPtr#9e1bd3a424b3664ef97e4e190aedf226ba54c0c8"
 dependencies = [
  "displaydoc",
  "proc-macro2",
